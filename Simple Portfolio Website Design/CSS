@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+header{
+    display: block;
+    text-align: center;
+}
+
+header span#name{
+    font-size: 2.5em;
+}
+
+header p{
+    font-size: 1.5em;
+}
+
+header span#role{
+    font-size: 2em;
+}
+
+table#portfolio, td {
+    border: 2px solid black;
+}
+
+td{
+    padding: 5px;
+}
+
+.table-headings {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
