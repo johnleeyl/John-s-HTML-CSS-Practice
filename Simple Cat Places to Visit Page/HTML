@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cat Journey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Best Cat places to visit while travelling</h1>
+    </header>
+    <div id="intro" class="container">
+        <img src="cat/cat.png" alt="Picture of cat">
+        <p id="name" class="header">About Cat</p>
+        <p id="description">
+            Cats are small, carnivorous mammals that are often kept as pets. They are known for their agility, playful behavior, and ability to hunt vermin. Cats have been domesticated for thousands of years and are one of the most popular pets worldwide. They come in various breeds, colors, and sizes, each with unique characteristics and personalities. Cats are also known for their grooming habits, spending a significant amount of time cleaning themselves. They communicate through vocalizations like meowing and purring, as well as body language. Cats can be independent but also form strong bonds with their owners.
+        </p>
+    </div>
+
+    <div id="ending" class="container">
+        <p id="achievement" class="header">
+            Locations - Country
+        </p>
+        <ol>
+            <li>Home of Paws - Malaysia (Johor Bahru)</li>
+            <li>BIFF Cat Cafe - Busan (Near Gamcheon)</li>
+            <li>Meow Me Cat House - Malaysia (Mount Austin)</li>
+            <li>Puchi Marry Cat Cafe [Coo & Riku] - Malaysia (Kuala Lumpur)</li>
+        </ol>
+    </div>
+
+    <footer>
+        &copy; Created by John Lee Yan Long. All rights reserved
+    </footer>
+
+</body>
+</html>
