@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Survey Form using HTML and CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>John Lee's Survey Form</h1>
+    <div id="container">
+        <form action="submit">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" class="input" placeholder="Enter your name" required><br>
+
+            <label for="email">Email</label><br>
+            <input type="text" id="email" class="input" placeholder="Enter your email" required><br>
+
+            <label for="age">Age</label><br>
+            <input type="text" id="age" class="input" placeholder="Enter your age" required><br>
+
+            <label for="option">Which option best describes you?</label><br>
+            <select name="option" id="option" class="input">
+                <option value="Intern">Intern</option>
+                <option value="Intern">Full-time Employee</option>
+                <option value="Intern">Student</option>
+                <option value="Intern">Unemployed</option>
+            </select><br>
+
+            <p>Do you enjoy coding?</p>
+            <input type="radio" id="yes" class="input-checks" name="radio-buttons">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" class="input-checks" name="radio-buttons">
+            <label for="no">No</label><br>
+            <input type="radio" id="maybe" class="input-checks" name="radio-buttons">
+            <label for="maybe">Maybe</label><br>
+
+            <p>Languages known (Check all that apply):</p>
+            <input type="checkbox" id="c" class="input-checks" >
+            <label for="c">C</label><br>
+            <input type="checkbox" id="java" class="input-checks" >
+            <label for="java">Java</label><br>
+            <input type="checkbox" id="javascript" class="input-checks" >
+            <label for="javascript">Javascript</label><br>
+            <input type="checkbox" id="python" class="input-checks" >
+            <label for="python">Python</label><br>
+            <input type="checkbox" id="sql" class="input-checks" >
+            <label for="sql">SQL</label><br>
+
+            <div id="suggestion-box">
+                <label for="suggestion">
+                    Any comments or suggestions?
+                </label><br>
+                <textarea name="suggestion" id="suggestion" placeholder="Enter your comments or suggestions here">
+                </textarea>
+            </div>
+
+            <div id="submit">
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
