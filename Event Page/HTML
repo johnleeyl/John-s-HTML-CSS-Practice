@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Event Schedule Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <H1>Welcome to John Lee's TechCon 2025</H1>
+        <p id="header-description">The Ultimate Technology & Programming Conference</p>
+    </header>
+    <nav>
+        <a href="#" class="nav-bar">About</a>
+        <a href="#" class="nav-bar">Schedule</a>
+        <a href="#" class="nav-bar">Speakers</a>
+        <a href="#" class="nav-bar">Contact</a>
+    </nav>
+    <div id="about" class="section">
+        <h2 id="about-header" class="header">
+            About the Event
+        </h2>
+        <p id="about-description">
+            John Lee's TechCon 2025 brings together leading minds in programming, tech, and innovation. Join us for a day of insightful talks, networking, and learning.
+        </p>
+    </div>
+    <div id="schedule" class="section">
+        <h2 id="schedule-header" class="header">
+            Event Schedule
+        </h2>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Session</th>
+                <th>Contest</th>
+            </tr>
+            <tr>
+                <td>9:00 AM</td>
+                <td>Opening Keynote</td>
+                <td>John Lee's Coding Platform</td>
+            </tr>
+            <tr>
+                <td>10:30 AM</td>
+                <td>Understanding AI and Machine Learning</td>
+                <td>Mr. Arvind Kumar</td>
+            </tr>
+            <tr>
+                <td>1:00 PM</td>
+                <td>Lunch Break</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>2:00 PM</td>
+                <td>Exploring the Future of Cloud Computing</td>
+                <td>Ms. Neha Gupta</td>
+            </tr>
+        </table>
+    </div>
+    <div id="speakers" class="section">
+        <h2 id="speakers-header" class="header">Meet the Speakers</h2>
+        <p class="names"><span>Dr. Radhika Sharma:</span> AI Expert and Researcher</p>
+        <p class="names"><span>Mr. Arvind Kumar:</span> Senior Data Scientist at Google</p>
+        <p class="names"><span>Ms. Neha Gupta:</span> Cloud Computing Specialist at Amazon</p>
+        <p class="names"><span>Mr. Sandeep Reddy:</span> Full Stack  Developer and Open-Source Contributor</p>
+    </div>
+
+    <div id="contact-page" class="section">
+        <h2 id="contact-header" class="header">Contact Us</h2>
+        <div id="form-section">
+            <form action="submit">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" placeholder="Your Name..." required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="Your Email..." required><br>
+                <label for="name">Message:</label><br>
+                <textarea name="message" id="message"></textarea>
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
